@@ -1,0 +1,274 @@
+* {}
+
+p{
+    text-align: center;
+
+}
+
+h1 {
+    display: flex;
+    font-size: 55px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    width: 100;
+    padding: 12.5px;
+    padding-bottom: 1%;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding-bottom: 30px;
+}
+
+.formcontainer{
+    display: flex;
+    justify-content: center;
+}
+input {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+form > span{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+span{
+    color: #757575;
+    padding-bottom: 15px
+}
+
+
+
+
+
+.cols{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.cols > h2{
+    width: 25%;
+    height: 100%;
+    margin: 0px;
+    padding-right: 
+}
+.cols > h2:first-child{
+    
+}
+.cols >h2:last-child{
+
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+
+
+.innercols{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.innercols > p{
+    text-align: left;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.innercols > p:last-child{
+    padding-right: 0px;
+}
+.innercols > p:first-child{
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    /* height: 750px; no height makes the div grow with content*/
+}
+
+.inner {
+    width: 35%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    background-color: #8d32d83b;
+    width: 99.8%;
+    height: 70px;
+    margin-bottom: 10px;
+    /* border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black; */
+}
+
+    /* if the rows are touching this keeps them from having double borders in areas */
+    /* along with only having the left top and right border on the rows */
+/* .row:last-child {
+    border-bottom: 1px solid black;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  li:hover {
+    background-color: #8d32d85e;
+    -webkit-box-shadow: 13px 8px 15px -5px rgba(0,0,0,0.26); 
+    box-shadow: 13px 8px 15px -5px rgba(0,0,0,0.26);
+  }
+
+
+
+  .form-style-8{
+    display: none;
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+    margin: 0px auto;
+    margin-bottom: 50px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea{
+	resize:none;
+	overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 15px/1.7 'Open Sans', sans-serif;
+     color: #747474;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     cursor: pointer;
+     padding-bottom:
+} 
+
+
+
+
+
