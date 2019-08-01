@@ -1,5 +1,9 @@
 * {}
 
+body{
+    
+}
+
 p{
     text-align: center;
 
@@ -111,6 +115,7 @@ h2:hover{
 .inner {
     width: 35%;
     height: 100%;
+    background-color: white;
 }
 
 .row {
