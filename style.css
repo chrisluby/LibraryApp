@@ -1,12 +1,6 @@
-* {}
-
-body{
-    
-}
 
 p{
     text-align: center;
-
 }
 
 h1 {
@@ -63,14 +57,13 @@ span{
     width: 25%;
     height: 100%;
     margin: 0px;
-    padding-right: 
 }
-.cols > h2:first-child{
+/* .cols > h2:first-child{
     
 }
 .cols >h2:last-child{
 
-}
+} */
 
 h2:hover{
     text-decoration: underline;
@@ -97,12 +90,11 @@ h2:hover{
     
 }
 
-.innercols > p:last-child{
-    padding-right: 0px;
+/* todo: use this selector -> make the yes/no clickable to swap boolean */-----------------
+.innercols > p:last-child:hover{
+    text-decoration: underline;
 }
-.innercols > p:first-child{
-    
-}
+
 
 .flex {
     display: flex;
@@ -270,7 +262,6 @@ label
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
      cursor: pointer;
-     padding-bottom:
 } 
 
 
