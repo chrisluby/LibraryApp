@@ -36,7 +36,7 @@ function Book(title, pages, author, read) {
   }
 };
 
-//sets up page HTML
+//sets up the page HTML
 function render() {
   myLibrary.forEach(function(e, i){
   var li = document.createElement("li");
@@ -60,7 +60,7 @@ function render() {
   div.appendChild(p);
   p.innerText = e.pages
   
-  var p = document.createElement("p");
+  var p = document.createElement("p"); 
   p.classList.add('read');
   p.classList.add(i); //adds to index of the added book to the innercols div as a class.  beginning at 0.
   div.appendChild(p);
