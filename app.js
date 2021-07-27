@@ -100,7 +100,6 @@ function readClicks(){
 
 function script(){
   myLibrary[this.classList[1]].bang();
-  console.log(this.classList[1])
   clear();
   render();
 }

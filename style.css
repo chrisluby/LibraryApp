@@ -41,9 +41,11 @@ span{
     color: #757575;
     padding-bottom: 15px
 }
-/* .read:hover{
-    background-color: #8d32d8b2;
-} */
+.read:hover{
+    background-color: #0000004d;
+    text-decoration: underline;
+}
+
 
 
 
